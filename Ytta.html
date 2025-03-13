@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XVISUAL V1-PRO</title>
+    <style>
+        /* Import font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        /* Styling umum */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1a1a2e, #3a0ca3, #4a148c);
+            color: #fff;
+            text-align: center;
+            scroll-behavior: smooth; /* Animasi scroll */
+        }
+
+        /* Header */
+        header {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 600;
+            color: #9d4edd;
+        }
+
+        /* Container utama */
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+        .container.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        /* Gambar */
+        .img-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Button */
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: white;
+            background: #6a00f4;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #5800b6;
+        }
+
+        /* Price List */
+        .price-list {
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .price-list h2 {
+            color: #bb86fc;
+            font-size: 1.8em;
+        }
+
+        .price-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            margin: 10px 0;
+            border-radius: 10px;
+        }
+
+        .price-item span {
+            font-size: 1.2em;
+        }
+
+        /* Hubungi Owner */
+        .contact {
+            margin-top: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .contact h2 {
+            color: #ffcc00;
+        }
+
+        .contact a {
+            display: block;
+            color: #fff;
+            font-size: 1.2em;
+            margin-top: 10px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .contact a:hover {
+            color: #ffcc00;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SCRIPT BOT WHATSAPP XVISUAL V1 PRO EDITION</h1>
+    </header>
+
+    <div class="container">
+        <div class="img-container">
+            <img src="https://files.catbox.moe/0wdlj4.jpg" alt="Gambar Keren">
+        </div>
+
+        <p>Apa itu script bot xvisual?? 
+        script bot xvisual adalah script bot yang memfokuskan bot nya kepada fitur fitur bug yang ada di whatsapp, contoh nya adalah system ui kills, crash hard whatsapp, dll.</p>
+        
+        <a href="#contact" class="btn">Price List</a>
+
+        <!-- Price List -->
+        <div class="price-list">
+            <h2>Price List</h2>
+            <div class="price-item">
+                <span>🔓 Script No encryption</span>
+                <span>Rp 75.000</span>
+            </div>
+            <div class="price-item">
+                <span>🔐 Script Encryption</span>
+                <span>Rp 55.000</span>
+            </div>
+            <div class="price-item">
+                <span>🕊 Jasa pembuatan bot whatsapp</span>
+                <span>Rp 60.000 - Rp 200.000</span>
+            </div>
+            <div class="price-item">
+                <span>🏷 Panel Unlimited ram and cpu</span>
+                <span>Rp 10.000</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hubungi Owner -->
+    <div id="contact" class="contact">
+        <h2>Hubungi Owner</h2>
+        <a href="https://wa.me/6282126457983">📞 WhatsApp 1</a>
+        <a href="https://wa.me/6284852946154">📞 WhatsApp 2</a>
+    </div>
+
+    <footer>
+        <p>&copy; XVisual Crasher | Pak Tzy | Hw Mods | RXHL | Eltz | Aybz | Marz | Marszll | Rioww | Nosz Official | Genoxx [Developer]</p>
+    </footer>
+
+    <script>
+        // Animasi saat scroll
+        document.addEventListener("DOMContentLoaded", function () {
+            const container = document.querySelector(".container");
+            const observer = new IntersectionObserver(
+                (entries) => {
+                    entries.forEach((entry) => {
+                        if (entry.isIntersecting) {
+                            container.classList.add("show");
+                        }
+                    });
+                },
+                { threshold: 0.3 }
+            );
+
+            observer.observe(container);
+        });
+    </script>
+
+</body>
+</html>
